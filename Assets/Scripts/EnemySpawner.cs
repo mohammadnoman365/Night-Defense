@@ -4,11 +4,11 @@ public class EnemySpawner : MonoBehaviour
 {
     public GameObject enemyPrefab;
 
-    public float spawnRate = 2f;   // time between spawns
+    public float spawnRate = 2f;   
     private float nextSpawnTime;
     public AudioClip spawnSound;
 
-    public Transform spawnPoint;   // right side position
+    public Transform spawnPoint;   
 
     public bool canSpawn = true;
 
@@ -32,5 +32,3 @@ public class EnemySpawner : MonoBehaviour
 }
 
 
-
-// I have not made single Enemy Script because there was a issue in assigning the player transform to the enemy script. I will make it in next update.
